@@ -23,7 +23,7 @@ export default function App() {
           <div className="flex items-center gap-3">
             <span className="h-3 w-3 rounded-full bg-emerald-500 animate-pulse" />
             <span className="font-mono text-sm tracking-wider text-zinc-400">
-              AMIT_SHAH // <span className="text-zinc-200">BUILD_IN___PUBLIC</span>
+              AMIT_SHAH // <span className="text-zinc-200">BUILD_IN_PUBLIC</span>
             </span>
           </div>
           <div className="flex items-center gap-4 text-sm font-mono">
@@ -43,7 +43,7 @@ export default function App() {
               </span>
               <h1 className="mt-6 text-4xl md:text-6xl font-bold tracking-tight leading-tight">
                 Crafting fast web apps by{' '}
-                <span className="bg-linear-to-r from-emerald-400 via-cyan-300 to-purple-400 bg-clip-text text-transparent">
+                <span className=" inline-block bg-linear-to-r from-emerald-400 via-cyan-300 to-purple-400 bg-clip-text text-transparent">
                   breaking things apart
                 </span>{' '}
                 first.
