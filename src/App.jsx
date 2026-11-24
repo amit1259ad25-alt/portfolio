@@ -6,7 +6,7 @@ export default function App() {
   const [copied, setCopied] = useState(false);
 
   const handleCopyEmail = () => {
-    navigator.clipboard.writeText("amit.dev@example.com");
+    navigator.clipboard.writeText("amit1259ad26@gmail.com");
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -24,7 +24,7 @@ export default function App() {
             <span className="h-3 w-3 rounded-full bg-emerald-500 animate-pulse" />
             <span className="font-mono text-sm tracking-wider text-zinc-400">
               AMIT_SHAH //{" "}
-              <span className="text-zinc-200">BUILD_IN_PUBLIC</span>
+              <span className="text-zinc-200">UNDERGRAD_MANIT_CSE'30</span>
             </span>
           </div>
           <div className="flex items-center gap-4 text-sm font-mono">
@@ -160,6 +160,16 @@ export default function App() {
                     <code>{activeProject.codeSnippet}</code>
                   </pre>
                 </div>
+                {activeProject.url && (
+                  <a
+                    href={activeProject.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-md bg-emerald-500/20 border border-emerald-400/40 px-3 py-1 font-mono text-xs font-medium text-emerald-300 hover:bg-emerald-500/30 transition"
+                  >
+                    Live Demo ↗
+                  </a>
+                )}
               </div>
               <div className="mt-6 flex flex-wrap gap-2 pt-4 border-t border-white/10">
                 {activeProject.stack.map((item) => (
