@@ -23,7 +23,7 @@ export default function App() {
           <div className="flex items-center gap-3">
             <span className="h-3 w-3 rounded-full bg-emerald-500 animate-pulse" />
             <span className="font-mono text-sm tracking-wider text-zinc-400">
-              AMIT_SHAH // <span className="text-zinc-200">BUILD_IN_PUBLIC</span>
+              AMIT_SHAH // <span className="text-zinc-200">BUILD_IN___PUBLIC</span>
             </span>
           </div>
           <div className="flex items-center gap-4 text-sm font-mono">
