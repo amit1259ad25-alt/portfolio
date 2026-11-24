@@ -49,11 +49,14 @@ export default function App() {
               <span className="rounded-full border border-purple-400/30 bg-purple-500/10 px-3 py-1 text-xs font-mono text-purple-300">
                 FULL-STACK WEB DEVELOPER
               </span>
-              <h1 className="mt-6 text-4xl md:text-6xl font-bold tracking-tight leading-tight text-white">
+              <h1 className="mt-6 text-4xl md:text-6xl font-bold tracking-tight leading-tight">
                 Crafting fast web apps by{" "}
-                <span className="inline-block bg-gradient-to-r from-emerald-400 via-cyan-300 to-purple-400 bg-clip-text text-transparent">
+                <span
+                  style={{ WebkitTextFillColor: "transparent" }}
+                  className=" bg-gradient-to-r from-emerald-400 via-cyan-300 to-purple-400 bg-clip-text text-transparent"
+                >
                   breaking things apart
-                </span>
+                </span>{" "}
                 first.
               </h1>
 
