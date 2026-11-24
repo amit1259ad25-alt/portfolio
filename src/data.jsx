@@ -50,14 +50,35 @@ const toggleTodo = (id) => {
 ];
 
 export const TECH_STACK = [
-  { name: 'React', icon: 'https://jsdelivr.net' },
-  { name: 'Tailwind v4', icon: 'https://jsdelivr.net' },
-  { name: 'Node.js', icon: 'https://jsdelivr.net' },
-  { name: 'Express', icon: 'https://jsdelivr.net', invert: true },
-  { name: 'MongoDB', icon: 'https://jsdelivr.net' },
-  { name: 'JavaScript', icon: 'https://jsdelivr.net' },
-  { name: 'Three.js', icon: 'https://jsdelivr.net', invert: true },
-  { name: 'Git', icon: 'https://jsdelivr.net' }
+  {
+    name: 'React',
+    icon: 'https://jsdelivr.net',
+  },
+  {
+    name: 'Tailwind v4',
+    icon: 'https://jsdelivr.net',
+  },
+  {
+    name: 'Node.js',
+    icon: 'https://jsdelivr.net',
+  },
+  {
+    name: 'Express',
+    icon: 'https://jsdelivr.net',
+    invert: true,
+  },
+  {
+    name: 'MongoDB',
+    icon: 'https://jsdelivr.net',
+  },
+  {
+    name: 'JavaScript',
+    icon: 'https://jsdelivr.net',
+  },
+  {
+    name: 'Git',
+    icon: 'https://jsdelivr.net',
+  },
 ];
 
 export const LAB_LOGS = [
