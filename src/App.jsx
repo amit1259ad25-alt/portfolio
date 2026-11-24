@@ -53,7 +53,7 @@ export default function App() {
                 Crafting fast web apps by{" "}
                 <span className="inline-block bg-gradient-to-r from-emerald-400 via-cyan-300 to-purple-400 bg-clip-text text-transparent">
                   breaking things apart
-                </span>{" "}
+                </span>
                 first.
               </h1>
 
