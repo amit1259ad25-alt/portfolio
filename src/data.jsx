@@ -106,6 +106,10 @@ export const TECH_STACK = [
     name: "GitHub",
     icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwPs4aLjB6PrVFbGobXz0h7wluc7p07sCyaPnyTHvWSA&s=10",
   },
+  {
+    name: "GitHub",
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwPs4aLjB6PrVFbGobXz0h7wluc7p07sCyaPnyTHvWSA&s=10"
+  }
 ];
 
 export const LAB_LOGS = [
